@@ -1,0 +1,52 @@
+{
+  "name": "react-client-api",
+  "version": "1.0.0",
+  "description": "React API client examples",
+  "scripts": {
+    "test": "vitest --config vitest.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "lint-fix": "eslint --fix ./src",
+    "prettier-fix": "prettier --write ./src",
+    "start": "vite --config vite.config.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thomas SLOBODA",
+    "email": "thomas@sloboda.fr",
+    "url": "https://thomas.sloboda.fr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomassloboda/react-client-api.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": "18.17.0",
+    "npm": "9.6.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.4.3",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "zustand": "^4.4.4"
+  }
+}
